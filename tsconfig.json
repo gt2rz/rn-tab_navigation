@@ -3,15 +3,36 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["src/components/*"],
-      "@screens/*": ["src/screens/*"],
-      "@assets/*": ["src/assets/*"],
-      "@utils/*": ["src/utils/*"],
-      "@constants/*": ["src/constants/*"],
-      "@services/*": ["src/services/*"],
-      "@hooks/*": ["src/hooks/*"],
-      "@navigation/*": ["src/navigation/*"],
-      "@types/*": ["src/types/*"]
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@screens/*": [
+        "src/screens/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@constants/*": [
+        "src/constants/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@hooks/*": [
+        "src/hooks/*"
+      ],
+      "@navigation/*": [
+        "src/navigation/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@styles/*": [
+        "src/styles/*"
+      ],
     }
   },
 }
