@@ -1,0 +1,1 @@
+export {screenStyles} from './screenStyles';
