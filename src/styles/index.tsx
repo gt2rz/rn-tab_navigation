@@ -1,1 +1,3 @@
-export {screenStyles} from './screenStyles';
+import * as Screens from './screenStyles';
+
+export {Screens};
