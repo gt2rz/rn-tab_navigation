@@ -1,15 +1,19 @@
 import React from 'react';
-import {View, Text, StyleSheet, SafeAreaView} from 'react-native';
+import {View, Text, StyleSheet, Button} from 'react-native';
+import {StackNavigationProp} from '@react-navigation/stack';
 
 // import {Screens} from '@/styles';
 
-const SettingsScreen = (): React.JSX.Element => {
+const SettingsScreen = ({
+  navigation,
+}: {
+  navigation: StackNavigationProp<any>;
+}): React.JSX.Element => {
   return (
-    <SafeAreaView>
-      <View style={styles.screen}>
-        <Text>Home Screen</Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.screen}>
+      <Text>Home Screen</Text>
+      <Button title="Go to Home" onPress={() => navigation.navigate('Home')} />
+    </View>
   );
 };
 
